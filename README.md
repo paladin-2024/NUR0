@@ -28,4 +28,4 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/nuro.git
+   git clone https://github.com/paladin-2024/NURO.git

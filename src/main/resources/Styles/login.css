@@ -13,9 +13,30 @@
 
 .login_logo_container Text {
     -fx-fill: #FFFFFF;
-    -fx-font-size: 2rem;
+    -fx-font-size: 2em;
 }
 
 .login_logo_container FontAwesomeIconView {
     -fx-fill: #ECF39E;
+}
+
+/*
+ * Account Selector Styles
+ */
+
+.account_selector {
+    -fx-background-color: #ECF39E;
+}
+
+.account_selector .label{
+    -fx-text-fill: #132A13;
+    -fx-font-size: 1.1em;
+}
+
+.account_selector .arrow{
+    -fx-background-color: #132A13;
+}
+
+#choice-box-popup-menu {
+    -fx-background-color: #ECF39E;
 }

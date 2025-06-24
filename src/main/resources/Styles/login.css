@@ -5,3 +5,17 @@
 /*
  * Logo Container Styles
  */
+
+.login_logo_container {
+    -fx-background-color: #132A13;
+    -fx-alignment: center;
+}
+
+.login_logo_container Text {
+    -fx-fill: #FFFFFF;
+    -fx-font-size: 2rem;
+}
+
+.login_logo_container FontAwesomeIconView {
+    -fx-fill: #ECF39E;
+}

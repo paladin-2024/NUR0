@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
@@ -14,14 +15,38 @@
          </children></VBox>
       <VBox layoutX="230.0" layoutY="32.0" prefHeight="350.0" prefWidth="350.0" styleClass="login_form_container" stylesheets="@../Styles/login.css" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
          <children>
-            <Label text="Choose your Account:" />
-            <ChoiceBox prefWidth="150.0" styleClass="account_selector" />
-            <Label text="Payee Address:" />
-            <TextField />
-            <Label text="Password:" />
-            <TextField />
-            <Button mnemonicParsing="false" text="Button" />
-            <Label text="Error:" />
+            <Label text="Choose your Account:">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></Label>
+            <ChoiceBox prefWidth="150.0" styleClass="account_selector">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></ChoiceBox>
+            <Label text="Payee Address:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Label>
+            <TextField styleClass="in">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></TextField>
+            <Label text="Password:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Label>
+            <TextField>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></TextField>
+            <Button mnemonicParsing="false" text="Button">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Button>
+            <Label text="Error:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin></Label>
          </children></VBox>
    </children>
 </AnchorPane>

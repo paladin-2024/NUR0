@@ -46,7 +46,7 @@
  */
 
 login_form_container {
-    -fx-spacing: 15;
+    -fx-spacing: 35;
     -fx-alignment: top_left;
 }
 .login_form_container Label {
@@ -54,7 +54,7 @@ login_form_container {
     -fx-font-size: 1.1em;
 }
 
-input_field {
+.input_field {
     -fx-background-color: #ffffff;
     -fx-pref-height: 35;
     -fx-font-size: 1.2em;

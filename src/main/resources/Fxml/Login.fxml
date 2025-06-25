@@ -27,7 +27,7 @@
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></Label>
-            <TextField styleClass="in">
+            <TextField styleClass="input_field">
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></TextField>
@@ -35,7 +35,7 @@
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></Label>
-            <TextField>
+            <TextField styleClass="input_field">
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></TextField>
@@ -43,7 +43,7 @@
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></Button>
-            <Label text="Error:">
+            <Label styleClass="error_lbl" text="Error:">
                <VBox.margin>
                   <Insets top="15.0" />
                </VBox.margin></Label>

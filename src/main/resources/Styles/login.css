@@ -45,8 +45,10 @@
  * Login Form Styles
  */
 
-login_form_container {
-    -fx-spacing: 35;
+
+
+.login_form_container {
+    -fx-spacing: 15;
     -fx-alignment: top_left;
 }
 .login_form_container Label {

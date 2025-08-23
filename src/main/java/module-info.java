@@ -5,6 +5,7 @@ module org.example.nuro {
     requires de.jensd.fx.glyphs.fontawesome;
     requires java.sql;
     requires org.xerial.sqlitejdbc;
+    requires com.almasb.fxgl.scene;
 
     opens org.example.nuro to javafx.fxml;
     exports org.example.nuro;

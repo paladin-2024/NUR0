@@ -16,29 +16,13 @@
     </VBox>
     <VBox layoutX="230.0" layoutY="32.0" prefHeight="350.0" prefWidth="350.0" styleClass="login_form_container"
           stylesheets="@../Styles/login.css" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
-        <Label id="choice-prompt-text" text="Choose your Account:">
-
-        </Label>
-        <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector">
-
-        </ChoiceBox>
-        <Label fx:id="payee_address_label" text="Payee Address:">
-
-        </Label>
-        <TextField fx:id="payee_address_field" styleClass="input_field">
-
-        </TextField>
-        <Label fx:id="password_label" text="Password:">
-
-        </Label>
-        <TextField fx:id="password_field" styleClass="input_field">
-
-        </TextField>
-        <Button fx:id="login_btn" mnemonicParsing="false" text="Button">
-
-        </Button>
-        <Label fx:id="error_label" styleClass="error_lbl" text="Error:">
-
-        </Label>
+        <Label id="choice-prompt-text" text="Choose your Account:"/>
+        <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector"/>
+        <Label fx:id="payee_address_label" text="Payee Address:"/>
+        <TextField fx:id="payee_address_field" styleClass="input_field"/>
+        <Label fx:id="password_label" text="Password:"/>
+        <TextField fx:id="password_field" styleClass="input_field"/>
+        <Button fx:id="login_btn" mnemonicParsing="false" text="Button"/>
+        <Label fx:id="error_label" styleClass="error_lbl" text="Error:"/>
     </VBox>
 </AnchorPane>

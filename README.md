@@ -19,8 +19,8 @@
 - Java 17+  
 - JavaFX 19  
 - IntelliJ IDEA  
-- Scene Builder *(optional)*  
-- SQLite *(optional)*
+- Scene Builder * 
+- SQLite 
 
 ---
 

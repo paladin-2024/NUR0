@@ -9,10 +9,15 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/Login.xml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("NURO Banking System");
-        stage.setScene(scene);
-        stage.show();
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Login.xml"));
+            Scene scene = new Scene(fxmlLoader.load());
+            stage.setTitle("NURO Banking System");
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+            // Optionally show an error dialog to the user
+        }
     }
 }

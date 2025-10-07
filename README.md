@@ -19,8 +19,8 @@
 - Java 17+  
 - JavaFX 19  
 - IntelliJ IDEA  
-- Scene Builder *(optional)*  
-- SQLite *(optional)*
+- Scene Builder * 
+- SQLite 
 
 ---
 
@@ -28,4 +28,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/paladin-2024/NURO.git
+   git clone https://github.com/paladin-2024/NURO.git\
+   
+2. **Open the project in your preferable IDE**
+
+I would recommend IntelliJ IDEA 

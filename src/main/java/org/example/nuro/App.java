@@ -4,20 +4,24 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import java.net.URL;
 
 public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Login.xml"));
-            Scene scene = new Scene(fxmlLoader.load());
-            stage.setTitle("NURO Banking System");
-            stage.setScene(scene);
-            stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-            // Optionally show an error dialog to the user
+        URL fxmlLocation = App.class.getResource("/fxml/Login.xml");
+        if (fxmlLocation == null) {
+            throw new IllegalStateException("Cannot find FXML file at /fxml/Login.xml. Check resource path and build configuration.");
         }
+        FXMLLoader fxmlLoader = new FXMLLoader(fxmlLocation);
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("NURO Banking System");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
